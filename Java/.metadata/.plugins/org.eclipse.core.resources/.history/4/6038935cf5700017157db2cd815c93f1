@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestCases {
+
+	@Test
+	public void test() {
+		assertThat(between(1).equals(false));
+		assertThat(between(0).equals(false));
+		assertThat(between(0.5).equals(true));
+		assertThat(between(0.99).equals(true));
+		assertThat(between(0.01).equals(true));
+	}
+
+}
