@@ -27,7 +27,6 @@ public class MatrixTests {
 		assertArrayEquals(Matrix.mult(aDifSize, bDifSize), cDifSize);
 	}
 
-	//TODO
 	@Test
 	public void testTrasnpose() {
 		double[][] a = { {-1, 3.00,4 }, { 2.00, -5.00,0 },{1,4,2} };
