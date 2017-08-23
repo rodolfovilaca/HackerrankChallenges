@@ -4,15 +4,12 @@
  */
 public class Pre4 {
 	public static int[] pre4(int[] nums) {
-		int position = -1;
+		int position = 0;
 		for (int i = 0; i < nums.length; i++) {
 			if (nums[i] == 4) {
 				position = i;
 				break;
 			}
-		}
-		if(nums.length<1){
-			position = 0;
 		}
 		int[] result = new int[position];
 		if (position > 0) {
